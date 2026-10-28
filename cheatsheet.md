@@ -4,6 +4,7 @@
 ## Chapter 1: Starting out
 - To run the interpreter: `ghci`
 - To load `baby.hs` from the interpreter: `ghci> :l baby`
+- To exit GHCI: `:q`
 
 ### Functions
 - prefix place function call before args, e.g. `succ 5`
@@ -88,6 +89,7 @@ In Haskell, the else is mandatory. (I think this is because the language is decl
 - recursion: first few lines are base cases, then the recursive case(s)
 - functions are written in a pattern-matching way
 - equivalent: `[1, 2, 3]`, `1:2:3:[]`, `1:(2:(3:[]))`. a list is recursively constructed from an empty list by adding elements to the front
+- `what ls` ends up defining a locally-defined function `what` which takes an argument `ls`n
 
 ### Guards
 - we use guards to check whether a property of the input is true or false, rather
