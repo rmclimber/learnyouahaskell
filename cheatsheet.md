@@ -113,3 +113,11 @@ giving the return values of the function for particular values of `bmi`
 
 ### case
 - `case` can be used anywhere in a function, whereas pattern-matching can only be used when defining the function
+
+## Cahpter 4: recursion
+- => separates constraints from the type signature
+
+## Chapter 5: higher-order functions
+- higher-order function: function which takes functions as parameters and returns one as a value
+- curried functions: function which takes only one parameter
+- when function with multiple args is called, a curried function is called: it returns another function which takes one paraemter
